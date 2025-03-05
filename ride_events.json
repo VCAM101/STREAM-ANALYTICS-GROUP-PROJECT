@@ -1,0 +1,202 @@
+[
+    {
+        "event_type": "RideRequest",
+        "ride_request": {
+            "passenger_id": "6f079fb4-fdb0-4a83-adeb-603abb35808d",
+            "pickup_location": {
+                "latitude": -19.0651035,
+                "longitude": 126.321948
+            },
+            "dropoff_location": {
+                "latitude": -59.209801,
+                "longitude": 120.748582
+            },
+            "timestamp": "2025-03-05T09:11:12.826678",
+            "status": "Requested",
+            "estimated_duration": 47,
+            "estimated_price": 20.82
+        },
+        "ride_status": null
+    },
+    {
+        "event_type": "RideRequest",
+        "ride_request": {
+            "passenger_id": "02f6d451-fd86-45f1-affa-18241d9264ea",
+            "pickup_location": {
+                "latitude": 84.623982,
+                "longitude": 56.143267
+            },
+            "dropoff_location": {
+                "latitude": 83.9481205,
+                "longitude": -143.097205
+            },
+            "timestamp": "2025-03-05T09:11:12.826709",
+            "status": "Requested",
+            "estimated_duration": 9,
+            "estimated_price": 47.97
+        },
+        "ride_status": null
+    },
+    {
+        "event_type": "RideRequest",
+        "ride_request": {
+            "passenger_id": "6e0684d9-e7c7-426e-b714-77bad19f9657",
+            "pickup_location": {
+                "latitude": 38.2568585,
+                "longitude": 145.424553
+            },
+            "dropoff_location": {
+                "latitude": -33.0065465,
+                "longitude": -40.055479
+            },
+            "timestamp": "2025-03-05T09:11:12.826723",
+            "status": "Canceled",
+            "estimated_duration": 19,
+            "estimated_price": 21.27
+        },
+        "ride_status": null
+    },
+    {
+        "event_type": "RideRequest",
+        "ride_request": {
+            "passenger_id": "c308addb-b0d3-4521-91dd-37023044c782",
+            "pickup_location": {
+                "latitude": -58.232748,
+                "longitude": 28.945222
+            },
+            "dropoff_location": {
+                "latitude": 79.2421525,
+                "longitude": 13.99487
+            },
+            "timestamp": "2025-03-05T09:11:12.826737",
+            "status": "Requested",
+            "estimated_duration": 10,
+            "estimated_price": 33.55
+        },
+        "ride_status": null
+    },
+    {
+        "event_type": "RideRequest",
+        "ride_request": {
+            "passenger_id": "11cfc9b4-663a-4b4c-b4ef-96653537756e",
+            "pickup_location": {
+                "latitude": 44.623137,
+                "longitude": 80.565928
+            },
+            "dropoff_location": {
+                "latitude": -84.185678,
+                "longitude": -70.347975
+            },
+            "timestamp": "2025-03-05T09:11:12.826751",
+            "status": "Requested",
+            "estimated_duration": 9,
+            "estimated_price": 44.12
+        },
+        "ride_status": null
+    },
+    {
+        "event_type": "RideStatus",
+        "ride_request": null,
+        "ride_status": {
+            "ride_id": "b354caf0-c3dc-41c5-a3ce-c4eb927aca8a",
+            "driver_id": "6d3da376-222e-40e4-998f-62b756e9c23b",
+            "passenger_id": "8e583b32-fcdf-4d55-8771-2b4d52c26b24",
+            "pickup_location": {
+                "latitude": -24.271944,
+                "longitude": 179.565451
+            },
+            "dropoff_location": {
+                "latitude": -38.685206,
+                "longitude": 170.401797
+            },
+            "timestamp": "2025-03-05T09:11:12.826802",
+            "status": "Completed",
+            "actual_duration": 26,
+            "final_price": 33.12
+        }
+    },
+    {
+        "event_type": "RideStatus",
+        "ride_request": null,
+        "ride_status": {
+            "ride_id": "222237d0-e387-4695-bf2e-1281e947c692",
+            "driver_id": "cecb1192-6f47-4746-83e2-cea03334b098",
+            "passenger_id": "1c564813-a950-4832-8242-1dfccd1885ed",
+            "pickup_location": {
+                "latitude": 58.1593225,
+                "longitude": 34.394221
+            },
+            "dropoff_location": {
+                "latitude": -41.665551,
+                "longitude": 128.419084
+            },
+            "timestamp": "2025-03-05T09:11:12.826820",
+            "status": "Ongoing",
+            "actual_duration": 36,
+            "final_price": 8.42
+        }
+    },
+    {
+        "event_type": "RideStatus",
+        "ride_request": null,
+        "ride_status": {
+            "ride_id": "4ca6d458-cbd4-4652-84e9-82b9754b33d7",
+            "driver_id": "48ac8a56-4dec-4e79-90dc-98e6b856c2f0",
+            "passenger_id": "4268c4e7-d8fd-4a85-b5cb-074b9f2b8cce",
+            "pickup_location": {
+                "latitude": 79.231704,
+                "longitude": -153.978489
+            },
+            "dropoff_location": {
+                "latitude": -6.968669,
+                "longitude": -134.665603
+            },
+            "timestamp": "2025-03-05T09:11:12.826838",
+            "status": "Ongoing",
+            "actual_duration": 56,
+            "final_price": 43.82
+        }
+    },
+    {
+        "event_type": "RideStatus",
+        "ride_request": null,
+        "ride_status": {
+            "ride_id": "0d4745a9-5901-4c29-9207-15a72e6ed295",
+            "driver_id": "5a4c9df0-c7db-41be-8b47-75dd465cc967",
+            "passenger_id": "a350e6ef-bf00-4261-b8c9-b69caf4e9dd5",
+            "pickup_location": {
+                "latitude": -16.4657595,
+                "longitude": 80.884537
+            },
+            "dropoff_location": {
+                "latitude": -53.6492035,
+                "longitude": 108.490859
+            },
+            "timestamp": "2025-03-05T09:11:12.826858",
+            "status": "Ongoing",
+            "actual_duration": 55,
+            "final_price": 25.55
+        }
+    },
+    {
+        "event_type": "RideStatus",
+        "ride_request": null,
+        "ride_status": {
+            "ride_id": "430a5d15-4871-4d3a-89cf-f2ce0df3d930",
+            "driver_id": "d31d7122-1b96-4ffa-bae6-c9a9e4b9a0ae",
+            "passenger_id": "9948609d-ea55-457c-a286-40316f5d64c1",
+            "pickup_location": {
+                "latitude": 50.802542,
+                "longitude": 34.890707
+            },
+            "dropoff_location": {
+                "latitude": 54.4796925,
+                "longitude": -67.248128
+            },
+            "timestamp": "2025-03-05T09:11:12.826876",
+            "status": "Accepted",
+            "actual_duration": 59,
+            "final_price": 27.94
+        }
+    }
+]
